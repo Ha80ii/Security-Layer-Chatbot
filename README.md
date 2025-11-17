@@ -31,15 +31,15 @@ This project provides a Streamlit-based interface where users can enter any prom
 
 - **This ensures protection from:**
   
- 🚫 Harmful instructions
+   🚫 Harmful instructions
 
- 🚫 Violence or exploitation queries
+   🚫 Violence or exploitation queries
  
- 🚫 Criminal activity
+   🚫 Criminal activity
  
- 🚫 Sensitive content
+   🚫 Sensitive content
  
- 🚫 Self-harm or harm to others
+   🚫 Self-harm or harm to others
 
 
 
