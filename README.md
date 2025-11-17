@@ -11,29 +11,34 @@ This project provides a Streamlit-based interface where users can enter any prom
 
 **🔐 System Behavior:**
 
-- **✔️ SAFE Prompt**
+- **✔️ SAFE Prompt:**
 
-       - If the input is classified as SAFE, the system:
+  - If the input is classified as SAFE, the system:
 
-       - Sends the prompt to an LLM (through OpenRouter API)
+  - Sends the prompt to an LLM (through OpenRouter API)
 
-       -  Returns the generated response to the user
+  -  Returns the generated response to the user
 
-- **❌ UNSAFE Prompt**
+- **❌ UNSAFE Prompt:**
 
-      - If the input is classified as UNSAFE, the system:
+  - If the input is classified as UNSAFE, the system:
 
-      - Blocks the prompt
+  - Blocks the prompt
 
-      - Prevents it from reaching the LLM
+  - Prevents it from reaching the LLM
 
-      - Displays a warning message to the user
+  - Displays a warning message to the user
 
 - **This ensures protection from:**
+  
  🚫 Harmful instructions
+
  🚫 Violence or exploitation queries
+ 
  🚫 Criminal activity
+ 
  🚫 Sensitive content
+ 
  🚫 Self-harm or harm to others
 
 
